@@ -1,0 +1,88 @@
+/* html background*/
+
+html {
+background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* wrapper container */  
+div#wrapper {
+width: 100%;
+min-height: 1015px;
+}
+
+/* body */  
+body {
+margin:2px;
+padding:2px;
+width: 99%;
+float: left;
+min-height: 1015px;
+} 
+
+/* header */  
+#header-wrap { display: inline-block; height: 100px; width: 98% background-color: clear; border-bottom: none; }
+#header-wrap header { display: inline-block; height: 100px; width: 98%; margin: 0 auto; padding: 7px 15px 5px 15px;  }
+a.logo {float: left; display: block; width: 30%; margin: 0 auto; padding: 7px 15px 5px 15px; font-size: x-large;}
+address {float: left; display: block; width: 30%; margin: 0 auto; padding: 7px 15px 5px 15px; font-size: large;}
+section#hours {float: left; display: block: width: 30%; margin: 0 auto; padding: 7px 15px 5px 15px; font-size: large;}
+section#social {float: left; display: block: width: 100px; margin: 0 auto; padding: 7px 15px 5px 15px; }
+
+/* header font*/
+header {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	vertical-align: middle;
+	height: 99% 
+}
+
+/* page core */  
+div#core {  
+    display: block;  
+    clear: both;  
+    margin-bottom: 20px;  
+}  
+section#upper {  
+    width: 550px;  
+    float: left;  
+    margin: 0 15px;  
+}  
+section#lower {  
+    float: left;  
+    width: 300px;  
+}  
+  
+  
+/* scrolling carousel  */  
+
+#makeMeScrollable {
+	vertical-align: middle;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}  
+   
+/* clearfix */  
+.clearfix:after {  
+    content: ".";  
+    display: block;  
+    clear: both;  
+    visibility: hidden;  
+    line-height: 0;  
+    height: 0;  
+}  
+.clearfix {  
+    display: inline-block;  
+    height: 100px;
+}  
+   
+html[xmlns] .clearfix {  
+    display: block;  
+}  
+* html .clearfix {  
+    height: 1%;  
+}  
